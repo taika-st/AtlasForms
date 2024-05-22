@@ -3,6 +3,5 @@
     "config_version": 20210101,
     "name": "AtlasForms",
     "provider_region": "aws-us-east-1",
-    "deployment_model": "GLOBAL",
-    "environment": "production"
+    "deployment_model": "GLOBAL"
 }
