@@ -3,5 +3,16 @@
         "name": "api-key",
         "type": "api-key",
         "disabled": true
+    },
+    "local-userpass": {
+        "name": "local-userpass",
+        "type": "local-userpass",
+        "disabled": false,
+        "config": {
+            "confirmEmailSubject": "Confirm your email address.",
+            "emailConfirmationUrl": "https://stitch-statichosting-prod.s3.amazonaws.com/664d517bf2d309cef5242301/newUser/confirmEmail.html?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIAZ5A3K6VY7LDWGOX4%2F20240522%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20240522T024006Z\u0026X-Amz-Expires=60\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=645c33d10a19d03894c57304491782cc12f7fef9bf97ef52c10e27f8970dfbd9",
+            "resetPasswordSubject": "Here's a link to reset your password.",
+            "resetPasswordUrl": "https://stitch-statichosting-prod.s3.amazonaws.com/664d517bf2d309cef5242301/5fb70698b2d47a389f0cb521/resetPassword/resetPassword.html?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIAZ5A3K6VY7LDWGOX4%2F20240522%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20240522T024116Z\u0026X-Amz-Expires=60\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=cdad7c4285404c9588696bb4786adc7ead4f11019623573cbab9a8e8cda0db7d"
+        }
     }
 }
