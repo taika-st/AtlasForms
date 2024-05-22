@@ -1,18 +1,7 @@
 {
-    "local-userpass": {
-        "name": "local-userpass",
-        "type": "local-userpass",
-        "config": {
-            "autoConfirm": false,
-            "confirmEmailSubject": "Confirm your  email for Atlas Forms user registration.",
-
-            "emailConfirmationUrl": "https://atlasforms-xxxab.mongodbstitch.com/newUser/confirmEmail.html",
-            "resetPasswordSubject": "Request to reset your Atlas Forms password.",
-            "resetPasswordUrl": "https://atlasforms-xxxab.mongodbstitch.com/resetPassword/resetPassword.html",
-
-            "runConfirmationFunction": false,
-            "runResetFunction": false
-        },
-        "disabled": false
+    "api-key": {
+        "name": "api-key",
+        "type": "api-key",
+        "disabled": true
     }
 }

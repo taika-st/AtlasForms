@@ -1,6 +1,3 @@
 {
-    "enabled": true,
-
-    "app_default_domain": "atlasforms-xxxab.mongodbstitch.com"
-
+    "enabled": false
 }
